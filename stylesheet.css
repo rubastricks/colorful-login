@@ -1,0 +1,93 @@
+body{
+    background-color: #F7CC55; 
+}  
+.form-mt-8 {
+    position: relative;
+    left: 30%;
+    background-color: #fff; 
+    border-radius: 10px; 
+    width: 550px; 
+    box-shadow: 10px 10px 5px black;
+
+}
+.header {
+   position: relative; 
+   right: 25%; 
+   top: 35px;
+   margin: 25%; 
+   font-size: 10px;
+   color: #fff; 
+   background-color: #8FC438;
+   width: 120px;
+   height: 40px;
+}  
+h1 {
+    position: relative;
+    left: 10px; 
+    top: 5px;
+}
+#tb1 {
+    background-image: url(/user2.png);
+    background-position-y: 10px;
+    position: left;
+    padding-left: 30px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+} 
+#tb2 {
+    background-image: url(/lock.png);
+    background-position-y: 10px ;
+    position: left;
+    padding-left: 30px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+} 
+
+.styled-input {
+    position: relative;
+    left: 25%; 
+    bottom: 80px;
+    margin: 15px; 
+} 
+.styled-input input {
+    width: 300px; 
+    height: 45px;
+    border-color: orange; 
+    border-radius: 20px;
+    outline: 2px solid orange; 
+}  
+
+.styled-checkbox{ 
+    position: relative;
+bottom: 80px;
+left: 28%;
+font-size: 15px; 
+} 
+
+button {
+    position: relative;
+   left: 70%;
+   bottom: 70px;
+   width: 80px;
+   height: 40px;
+   background-color: #8FC438;
+   border-radius: 10px;
+   color: #fff;
+   font-size: 15px; 
+   
+}
+
+button:hover{
+    transform: translateY(3px); 
+    color: yellow;
+    background-color: black;
+    
+
+} 
+@media only screen and (max-width: 768px){
+    .form-mt-8 {
+        width:100%;
+    }
+}
